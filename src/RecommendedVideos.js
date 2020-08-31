@@ -1,8 +1,8 @@
-import React from 'react'
-
+import React from 'react';
+import './RecommendedVideos.css';
 export default function RecommendedVideos() {
     return (
-        <div>
+        <div className="recommendedVideos">
             <h2>This is where the videos go</h2>
         </div>
     )

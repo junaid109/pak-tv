@@ -1,6 +1,5 @@
 import React from 'react';
 import Header from './Header';
-import logo from './logo.svg';
 import Sidebar from './Sidebar';
 import RecommendedVideos from './RecommendedVideos';
 import './App.css';

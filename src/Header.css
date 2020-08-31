@@ -27,6 +27,9 @@
     border-left: 1px solid lightgray;
     color: gray;
 }
+.header__logo{
+    flex: 1;
+}
 
 .header__icons{
     display: flex;

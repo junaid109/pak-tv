@@ -5,14 +5,14 @@ import VideoCallIcon from "@material-ui/icons/VideoCall";
 import AppsIcon from "@material-ui/icons/Apps";
 import NotificationsIcon from "@material-ui/icons/Notifications";
 import Avatar from "@material-ui/core/Avatar";
-import "./Header.css";
+import  "./Header.css";
 
 function Header() {
   return (
     <div className="header">
       <div className="header__left">
         <MenuIcon></MenuIcon>
-        <img src="../src/logo.svg" />
+        <img className="header__logo" src="https://cdn.mos.cms.futurecdn.net/SytNGv3ZxAVCkvcspmbbvh.jpg" alt="logo"/>
       </div>
 
       <div className="header__input">
