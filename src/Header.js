@@ -15,7 +15,10 @@ function Header() {
     <div className="header">
       <div className="header__left">
         <MenuIcon></MenuIcon>
+        <Link to="/">
         <img className="header__logo" src="https://cdn.mos.cms.futurecdn.net/SytNGv3ZxAVCkvcspmbbvh.jpg" alt="logo"/>
+
+        </Link>
       </div>
 
       <div className="header__input">
